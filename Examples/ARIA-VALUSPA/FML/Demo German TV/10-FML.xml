@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fml-apml>
+	<bml>
+		<speech id="s1" start="0.0" language="english" text="">
+			<description level="1" type="gretabml">
+				<reference>tmp/from-fml-apml.pho</reference>
+			</description>
+				
+			<tm id="tm1"/>
+				You promised to tell me your history, you know?
+			<tm id="tm2"/>	
+				said Alice,
+			<tm id="tm3"/>	
+				and why it is you hate C and D?
+			<tm id="tm4"/>
+				she added in a whisper, 
+			<tm id="tm5"/>	
+				half afraid that it would be offended again.
+			<tm id="tm6"/>	
+				Mine is a long 
+			<tm id="tm7"/>
+				and sad tale!
+			<tm id="tm8"/>
+				the mouse said,
+			<tm id="tm9"/>
+				turning to Alice and singing.
+			<tm id="tm10"/>	
+				It is a long tail certainly.
+			<tm id="tm11"/>
+				said Alice,
+			<tm id="tm12"/>
+				looking down with wonder at the Mouse tail.
+			<tm id="tm13"/>	
+				but, why do you call it sad?
+			<tm id="tm14"/>
+			<pitchaccent start="s1:tm1" id="pa1" importance="1" level="medium" end="s1:tm1+1" type="Lstar" />
+			<pitchaccent start="s1:tm3" id="pa2" importance="1" level="medium" end="s1:tm4" type="Hstar" />
+			<pitchaccent start="s1:tm6" id="pa3" importance="1" level="medium" end="s1:tm7" type="Hstar" />
+			<pitchaccent start="s1:tm10" id="pa4" importance="1" level="medium" end="s1:tm11" type="Lstar" />
+			<pitchaccent start="s1:tm13" id="pa5" importance="1" level="medium" end="s1:tm13+0.5" type="Hstar" />
+			<boundary start="s1:tm2" id="b1" end="s1:tm2+0.5" type="HH" />
+			<boundary start="s1:tm3" id="b2" end="s1:tm3+0.5" type="L" />
+			<boundary start="s1:tm4" id="b3" end="s1:tm4+0.5" type="HH" />
+			<boundary start="s1:tm5" id="b4" end="s1:tm5+0.5" type="L" />
+			<boundary start="s1:tm6" id="b5" end="s1:tm6+0.5" type="LL" />
+			<boundary start="s1:tm8" id="b6" end="s1:tm8+1" type="HH" />
+			<boundary start="s1:tm9" id="b7" end="s1:tm9+0.5" type="L" />
+			<boundary start="s1:tm10" id="b8" end="s1:tm10+0.5" type="LL" />
+			<boundary start="s1:tm11" id="b9" end="s1:tm11+0.5" type="LL" />
+			<boundary start="s1:tm12" id="b10" end="s1:tm12+0.5" type="L" />
+			<boundary start="s1:tm13" id="b11" end="s1:tm13+0.5" type="LL" />
+			
+		</speech>
+		
+	</bml>
+	<fml>
+		<emphasis id="em1" type="medium" start="s1:tm1" end="s1:tm2" importance="1.0" intensity="1"/>
+		<emotion id="e1" type="surprise" start="s1:tm3" end="s1:tm4" importance="1.0" intensity="0.5"/>
+		<emotion id="e2" type="fear" start="s1:tm5" end="s1:tm6" importance="1.0" intensity="0.5"/>
+		<emotion id="e3" type="sadness" start="s1:tm6" end="s1:tm7" importance="1.0" intensity="0.5"/>
+		<emotion id="e4" type="surprise" start="s1:tm12" end="s1:tm14" importance="1.0" intensity="0.5"/>
+		<deictic id="d1" type="selftouch" start="s1:tm6" end="s1:tm7" importance="1.0"/>
+		<deictic id="d2" type="down" start="s1:tm12" end="s1:tm13" importance="1.0"/>
+		<performative id="p1" type="propose" start="s1:tm3" end="s1:tm4"  importance="1" />
+		<performative id="p2" type="beatsocial" start="s1:tm5+1" end="s1:tm6"  importance="1" />
+		<certainty id="c1" type="certain" start="s1:tm10" end="s1:tm11"  importance="1" />
+		<beat id="b1" type="right" start="s1:tm1+1" end="s1:tm2"  importance="1" />
+		<beat id="b2" type="right" start="s1:tm13" end="s1:tm13+0.5"  importance="1" />
+		<beat id="b3" type="right" start="s1:tm13+1" end="s1:tm14"  importance="1" />
+	</fml>
+</fml-apml>

@@ -1,0 +1,13 @@
+<bml xmlns="http://www.bml-initiative.org/bml/bml-1.0" xmlns:ext="http://www.bml-initiative.org/bml/coreextensions-1.0"  xmlns:greta="http://perso.telecom-paristech.fr/~pelachau/Greta/" xmlns:cantoche="http://www.cantoche.com" character="Greta" id="bml1">
+
+     <face id="face1" start="1.0" end="2.0" amount="1.0">
+		      <lexeme lexeme="RAISE_MOUTH_CORNER"/>
+	    <description priority="1" type="cantoche">
+		<cantoche:lexeme lexeme="SMILE_1"/>
+	    </description>
+
+	    <description priority="2" type="greta">
+		<greta:lexeme lexeme="expression_1"/>
+	    </description>
+     </face>
+</bml>

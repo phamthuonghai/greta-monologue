@@ -1,0 +1,27 @@
+<bml xmlns="http://www.bml-initiative.org/bml/bml-1.0" xmlns:ext="http://www.bml-initiative.org/bml/coreextensions-1.0"  xmlns:greta="http://perso.telecom-paristech.fr/~pelachau/Greta/" character="Greta" id="bml1">
+
+    <ext:facefacs id="face7" start="63.0" end="66.0" amount="1.0" au="10"/>
+
+    <ext:facefacs id="face8" start="73.0" end="76.0" amount="1.0" au="12"/>
+
+    <ext:facefacs id="face9" start="83.0" end="86.0" amount="1.0" au="15"/>
+
+    <ext:facefacs id="face10" start="93.0" end="96.0" amount="1.0" au="16"/>
+
+    <ext:facefacs id="face11" start="103.0" end="106.0" amount="1.0" au="17"/>
+
+    <ext:facefacs id="face12" start="113.0" end="116.0" amount="1.0" au="20"/>
+
+    <ext:facefacs id="face13" start="123.0" end="126.0" amount="1.0" au="22"/>
+
+    <ext:facefacs id="face14" start="133.0" end="136.0" amount="1.0" au="23"/>
+
+    <ext:facefacs id="face15" start="143.0" end="146.0" amount="1.0" au="24"/>
+
+    <ext:facefacs id="face16" start="153.0" end="156.0" amount="1.0" au="25"/>
+
+    <ext:facefacs id="face17" start="163.0" end="166.0" amount="1.0" au="26"/>
+
+   <ext:facefacs id="face18" start="173.0" end="176.0" amount="1.0" au="29"/>
+
+</bml>

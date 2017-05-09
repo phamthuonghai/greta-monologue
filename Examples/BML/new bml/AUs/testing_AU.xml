@@ -1,0 +1,65 @@
+<bml xmlns="http://www.bml-initiative.org/bml/bml-1.0" xmlns:ext="http://www.bml-initiative.org/bml/coreextensions-1.0"  xmlns:greta="http://perso.telecom-paristech.fr/~pelachau/Greta/" character="Greta" id="bml1">
+
+      <ext:facefacs id="face1" start="3.0" end="6.0" amount="1.0" au="1"/>
+
+      <ext:facefacs id="face2" start="13.0" end="16.0" amount="1.0" au="2"/>
+
+      <ext:facefacs id="face3" start="23.0" end="26.0" amount="1.0" au="4"/>
+
+      <ext:facefacs id="face4" start="33.0" end="36.0" amount="1.0" au="5"/>
+
+     <ext:facefacs id="face5" start="43.0" end="46.0" amount="1.0" au="6"/>
+
+     <ext:facefacs id="face6" start="53.0" end="56.0" amount="1.0" au="7"/>
+
+    <ext:facefacs id="face7" start="63.0" end="66.0" amount="1.0" au="10"/>
+
+    <ext:facefacs id="face8" start="73.0" end="76.0" amount="1.0" au="12"/>
+
+    <ext:facefacs id="face9" start="83.0" end="86.0" amount="1.0" au="15"/>
+
+    <ext:facefacs id="face10" start="93.0" end="96.0" amount="1.0" au="16"/>
+
+    <ext:facefacs id="face11" start="103.0" end="106.0" amount="1.0" au="17"/>
+
+    <ext:facefacs id="face12" start="113.0" end="116.0" amount="1.0" au="20"/>
+
+    <ext:facefacs id="face13" start="123.0" end="126.0" amount="1.0" au="22"/>
+
+    <ext:facefacs id="face14" start="133.0" end="136.0" amount="1.0" au="23"/>
+
+    <ext:facefacs id="face15" start="143.0" end="146.0" amount="1.0" au="24"/>
+
+    <ext:facefacs id="face16" start="153.0" end="156.0" amount="1.0" au="25"/>
+
+    <ext:facefacs id="face17" start="163.0" end="166.0" amount="1.0" au="26"/>
+
+   <ext:facefacs id="face18" start="173.0" end="176.0" amount="1.0" au="29"/>
+
+   <ext:facefacs id="face19" start="183.0" end="186.0" amount="1.0" au="30"/>
+
+   <ext:facefacs id="face20" start="193.0" end="196.0" amount="1.0" au="34"/>
+
+   <ext:facefacs id="face21" start="203.0" end="206.0" amount="1.0" au="38"/>
+
+   <ext:facefacs id="face22" start="213.0" end="216.0" amount="1.0" au="39"/>
+
+   <ext:facefacs id="face23" start="223.0" end="226.0" amount="1.0" au="43"/>
+
+   <ext:facefacs id="face24" start="233.0" end="236.0" amount="1.0" au="51"/>
+
+   <ext:facefacs id="face25" start="243.0" end="246.0" amount="1.0" au="52"/>
+
+   <ext:facefacs id="face26" start="253.0" end="256.0" amount="1.0" au="53"/>
+
+   <ext:facefacs id="face27" start="263.0" end="266.0" amount="1.0" au="54"/>
+
+   <ext:facefacs id="face28" start="273.0" end="276.0" amount="1.0" au="55"/>
+
+   <ext:facefacs id="face29" start="283.0" end="286.0" amount="1.0" au="56"/>
+
+   <ext:facefacs id="face30" start="293.0" end="296.0" amount="1.0" au="57"/>
+
+   <ext:facefacs id="face31" start="303.0" end="306.0" amount="1.0" au="58"/>
+
+</bml>

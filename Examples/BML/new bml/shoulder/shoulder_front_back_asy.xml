@@ -1,0 +1,9 @@
+<bml xmlns="http://www.bml-initiative.org/bml/bml-1.0" xmlns:ext="http://www.bml-initiative.org/bml/coreextensions-1.0"  xmlns:greta="http://perso.telecom-paristech.fr/~pelachau/Greta/" character="Greta" id="bml1">
+
+                <shoulder id="sh1" start="1.0" end="3.0" lexeme="front" side="left" amount="1">
+                                  </shoulder>
+
+                <shoulder id="sh2" start="1.5" end="3.5" lexeme="back"  side="right" amount="0.85">
+                                  </shoulder>
+
+</bml>

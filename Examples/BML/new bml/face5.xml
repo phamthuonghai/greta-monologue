@@ -1,0 +1,12 @@
+<bml xmlns="http://www.bml-initiative.org/bml/bml-1.0" xmlns:ext="http://www.bml-initiative.org/bml/coreextensions-1.0"  xmlns:greta="http://perso.telecom-paristech.fr/~pelachau/Greta/" character="Greta" id="bml1">
+
+                <face id="face1" start="1.0" end="2.0" amount="1.0">
+                        <lexeme lexeme="RAISE_MOUTH_CORNER"/>
+                        <ext:facs au="1"/>
+                           <description priority="1" type="greta">                                   
+                                     <ext:facs au="1"/>
+                                     <greta:lexeme lexeme="slight_polite"/>
+                          </description>
+                </face>
+
+</bml>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE fml-apml SYSTEM "fml-apml.dtd" []>
+<fml-apml>
+<bml>
+
+</bml>
+<fml> 
+
+  <emotion id="p0" type="hate" start="0" end="5"  importance="1" intensity="0.5"/>   
+  
+  
+</fml>
+</fml-apml>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fml-apml>
+	<bml>
+		<speech id="s1" start="0.0" language="english" text="">
+			<description level="1" type="gretabml">
+				<reference>tmp/from-fml-apml.pho</reference>
+			</description>
+				
+			<tm id="tm1"/>
+				The card  
+			<tm id="tm2"/>	
+				is a price tag in "old English money".
+			<tm id="tm3"/>	
+				It means ten shillings 
+			<tm id="tm4"/>	
+				and six pence.
+			<tm id="tm5"/>	
+				This meaning is explained in a shorter version of the book 
+			<tm id="tm6"/>	
+				called "The Nursery Alice", 
+			<tm id="tm7"/>	
+				also by "Lewis Carroll".
+			<tm id="tm8"/>	
+			<pitchaccent start="s1:tm2+0.5" id="pa1" importance="1" level="medium" end="s1:tm3" type="Hstar" />
+			<pitchaccent start="s1:tm3" id="pa2" importance="1" level="medium" end="s1:tm4" type="Hstar" />
+			<pitchaccent start="s1:tm4" id="pa3" importance="1" level="medium" end="s1:tm5" type="Hstar" />
+			<pitchaccent start="s1:tm6" id="pa4" importance="1" level="medium" end="s1:tm7" type="Hstar" />
+			<boundary start="s1:tm3" id="b1" end="s1:tm3+0.5" type="LL" />
+			<boundary start="s1:tm5" id="b2" end="s1:tm5+0.5" type="LL" />
+			<boundary start="s1:tm7" id="b3" end="s1:tm7+0.5" type="L" />
+			<boundary start="s1:tm8" id="b1" end="s1:tm8+0.5" type="LL" />
+		</speech>
+	</bml>
+	<fml>
+		<beat id="b1" type="right" start="s1:tm2" end="s1:tm3"  importance="1" />
+		<beat id="b1" type="right" start="s1:tm3" end="s1:tm4"  importance="1" />
+		<beat id="b3" type="right" start="s1:tm4" end="s1:tm5"  importance="1" />
+		<performative id="p1" type="propose" start="s1:tm5" end="s1:tm6"  importance="1" />
+		<emotion id="e1" type="joy-face" start="s1:tm5" end="s1:tm8" importance="1.0"/>
+		<beat id="b4" type="right" start="s1:tm7" end="s1:tm8"  importance="1" />
+	</fml>
+</fml-apml>

@@ -1,0 +1,19 @@
+<bml xmlns="http://www.bml-initiative.org/bml/bml-1.0" xmlns:ext="http://www.bml-initiative.org/bml/coreextensions-1.0"  xmlns:greta="http://perso.telecom-paristech.fr/~pelachau/Greta/" character="Greta" id="bml1">
+
+                <face id="face1" start="1.0" end="3.0" amount="1.0">
+                        <lexeme lexeme="joy"/>
+                </face>
+
+       		<face id="face2" start="3.0" end="5.0" amount="1.0">
+                        <lexeme lexeme="small_joy"/>
+                </face>
+
+                <face id="face3" start="7.0" end="9.0" amount="1.0">
+                        <lexeme lexeme="joy"/>
+                </face>
+
+       		<face id="face4" start="12.0" end="14.0" amount="0.3">
+                        <lexeme lexeme="joy"/>
+                </face>
+
+</bml>

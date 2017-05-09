@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE fml-apml SYSTEM "fml-apml.dtd" []>
+<fml-apml>
+<bml>
+
+</bml>
+<fml> 
+
+  <performative type="beat" character="nao" id="p1" start="0" end="3"/>   
+  <performative type="wing" character="nao" id="p1" start="3" end="6"/>   
+  
+  <!--  <performative type="eat" character="nao1" id="papa_g1" start="s1:tm5" end="s1:tm6"/>
+  <performative type="eat" character="nao2" id="mama_g1" start="s1:tm7" end="s1:tm8"/> 
+  <performative type="eat" character="nao3" id="child_g1" start="s1:tm9" end="s1:tm10"/> 
+
+	<performative type="sitdown" character="nao1" id="papa_g2" start="s1:tm11" end="s1:tm12"/>	
+	<performative type="sitdown" character="nao2" id="mama_g2" start="s1:tm13" end="s1:tm14"/>
+	<performative type="sitdown" character="nao3" id="child_g2" start="s1:tm15" end="s1:tm16"/>	
+	
+	<performative type="sleep" character="nao1" id="papa_g3" start="s1:tm18" end="s1:tm19"/>	
+	<performative type="sleep" character="nao2" id="mama_g2" start="s1:tm20" end="s1:tm21"/>	
+	<performative type="sleep" character="nao3" id="child_g3" start="s1:tm22" end="s1:tm23"/>
+	
+   performative type="beat"  id="p1" start="6" end="8"/>  
+   <performative type="inform"  id="p1" start="8" end="12"/>  
+   <emotion type="happy"  id="p1" start="12" end="15"/-->
+   <!--emotion type="sad"  id="p1" start="15" end="18"/-->
+   <!--performative type="believe" character="Narrateur" id="p1" start="22" end="25"/-->  
+</fml>
+</fml-apml>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fml-apml>
+	<bml>
+		<speech id="s1" start="0.0" language="english" text="">
+			<description level="1" type="gretabml">
+				<reference>tmp/from-fml-apml.pho</reference>
+			</description>
+				
+			<tm id="tm1"/>
+				Well, 
+			<tm id="tm2"/>	
+			I know the story by heart ...
+			<tm id="tm3"/>
+			and some curiosities
+			<tm id="tm4"/>
+			 about the book as well.
+			<tm id="tm5"/>
+		</speech>
+		<pitchaccent start="s1:tm1" id="pa1" importance="1" level="medium" end="s1:tm2" type="Hstar" />
+		<pitchaccent start="s1:tm3" id="pa1" importance="1" level="medium" end="s1:tm4" type="Hstar" />
+		<boundary start="s1:tm1" id="b1" end="s1:tm1+0.5" type="LL" />
+		<boundary start="s1:tm3" id="b2" end="s1:tm3+0.5" type="LL" />
+		<boundary start="s1:tm5" id="b3" end="s1:tm5+0.5" type="LL" />
+	</bml>
+	<fml>
+		
+		<emotion id="e1" type="joy-face" start="s1:tm1" end="s1:tm3" importance="1.0"/>
+		<emphasis id="em1" type="medium" start="s1:tm1" end="s1:tm2" importance="1.0"/>
+		<deictic id="d1" type="selftouch" start="s1:tm2" end="s1:tm3" importance="1.0"/>
+		<beat id="b1" type="right" start="s1:tm4" end="s1:tm5" importance="1.0"/>
+	</fml>
+</fml-apml>

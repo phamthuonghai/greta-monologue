@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bml xmlns="http://www.mindmakers.org/projects/BML" character="Greta"
+    composition="REPLACE" id="bml1">
+    <gesture end="3.000" id="p1_0" lexeme="beat_both" start="0.000">
+        <description priority="1" type="greta">
+            <reference>beat=beat_both</reference>
+            <intensity>1.00</intensity>
+            <SPC.value>0.00</SPC.value>
+            <TMP.value>0.00</TMP.value>
+            <FLD.value>0.00</FLD.value>
+            <PWR.value>0.00</PWR.value>
+            <REP.value>-1.00</REP.value>
+        </description>
+    </gesture>
+<!--	
+    <gesture end="6.000" id="p1_0" lexeme="wing" start="3.000">
+        <description priority="1" type="greta">
+            <reference>iconic=wing</reference>
+            <intensity>1.00</intensity>
+            <SPC.value>0.00</SPC.value>
+            <TMP.value>0.00</TMP.value>
+            <FLD.value>-1.00</FLD.value>
+            <PWR.value>0.00</PWR.value>
+            <REP.value>-1.00</REP.value>
+        </description>
+    </gesture>
+    <head end="6.000" id="p1_1" lexeme="Downward" start="3.000">
+        <description priority="1" type="greta">
+            <reference>head=Downward</reference>
+            <intensity>1.00</intensity>
+            <SPC.value>0.00</SPC.value>
+            <TMP.value>0.05</TMP.value>
+            <FLD.value>-0.05</FLD.value>
+            <PWR.value>0.10</PWR.value>
+            <REP.value>-0.10</REP.value>
+        </description>
+    </head>
+    <greta:torso xmlns:greta="gretaNameSpace" end="6.000" id="p1_2"
+        lexeme="backward_lean" start="3.000">
+        <description xmlns="gretaNameSpace" priority="1" type="greta">
+            <reference>torso=backward_lean</reference>
+            <intensity>1.00</intensity>
+            <SPC.value>0.00</SPC.value>
+            <TMP.value>0.05</TMP.value>
+            <FLD.value>-0.05</FLD.value>
+            <PWR.value>0.10</PWR.value>
+            <REP.value>-0.10</REP.value>
+        </description>
+    </greta:torso> -->
+</bml>
