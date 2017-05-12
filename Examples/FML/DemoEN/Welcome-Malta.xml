@@ -22,8 +22,6 @@
 		</speech>
 	</bml>
 	<fml>
-		<deictic id="p1" type="selftouch" start="s1:tm2" end="s1:tm3" importance="1.0"/>
-		<performative id="p2" type="beatsocial" start="s1:tm3" end="s1:tm4" importance="1.0"/>
-		<emotion id="e1" type="regret_x" start="s1:tm2" end="s1:tm3" importance="1.0"/>
+		<emotion id="e1" type="regret_x" start="s1:tm2" end="s1:tm4" importance="1.0"/>
 	</fml>
 </fml-apml>
