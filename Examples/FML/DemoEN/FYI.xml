@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<fml-apml>
+	<bml>
+		<speech id="s1" start="0.0" language="english" voice="openmary" type="SAPI4" text="">
+			<description level="1" type="gretabml">
+				<reference>tmp/from-fml-apml.pho</reference>
+			</description>
+
+			<tm id="tm01"/>
+			So the other day my pool filter was broken
+			<tm id="tm02"/>
+			'so I called the information to get the number of'
+			<tm id="tm03"/>
+			a pool fixer
+			<tm id="tm04"/>
+			and wow!
+			<tm id="tm05"/>
+			When you call the information
+			<tm id="tm06"/>
+			you talk to a robot.
+			<tm id="tm07"/>
+			It's a different robot than it used to be 
+			<tm id="tm08"/>
+			because it was a robot for a while
+			<tm id="tm09"/>
+			 and now it's a friendlier one. 
+			<tm id="tm10"/>
+			That's how bad the economy is, even robots are getting replaced by other robots .. 
+			<tm id="tm11"/>
+			The new one is very pleasant, you know, you say the name and the number and … 
+			<tm id="tm12"/>
+			alright, I'll connect you. 
+			<tm id="tm13"/>
+			It's very very happy, and I've named her Noreen. 
+			<tm id="tm14"/>
+			The problem with Noreen is that she doesn't understand anything that I say. 
+			<tm id="tm15"/>
+			Cause at first they say 
+			<tm id="tm16"/>
+			'city and place, please'
+			<tm id="tm17"/>
+			so, you know, I say Los Angeles, California.
+			<tm id="tm18"/>
+			Did you say Los Vilas, California?
+			<tm id="tm19"/>
+			No I didn't say Los Vilas.
+			<tm id="tm20"/>
+			Ok, Los Vilas, what listing please?
+			<tm id="tm21"/>
+			No, Los Angeles, California!
+			<tm id="tm22"/>
+			Leslie's pools.
+			<tm id="tm23"/>
+			I start screaming, you know,
+			<tm id="tm24"/>
+			it's like talking to your Grandma, it's like 
+			<tm id="tm25"/>
+			'Grandma I got married!',
+			<tm id="tm26"/>
+			'Did you say I'm getting buried?!'
+			<tm id="tm27"/>
+			It's so frustrating trying to talk to a robot cause no matter how mad you get, the lady, Noreen, is so calm.
+			<tm id="tm28"/>
+			I'm having a hard time understanding you, let's try again. 
+			<tm id="tm29"/>
+			What do you mean let's try again? 
+			<tm id="tm30"/>
+			And you're finally just like 
+			<tm id="tm31"/>
+			'I hate you!'
+			<tm id="tm32"/>
+			 and that's when they've connected you to a real-life person, who knows that you want Leslie's pools, she's in the background listening!
+			<tm id="tm33"/>
+			And you just think
+			<tm id="tm34"/>
+			'Are you… listening the whole time?
+			<tm id="tm35"/>
+			Are you just back there? What are you doing?'
+			<tm id="tm36"/>
+			It's nice when you're a robot, you can't really get mad at the robot or do anything cause it's a robot,
+			<tm id="tm37"/>
+			so the next time
+			<tm id="tm38"/>
+			this is what I recommend
+			<tm id="tm39"/>
+			next time you get pulled over and the cop says 
+			<tm id="tm40"/>
+			License and registration
+			<tm id="tm41"/>
+			you just go
+			<tm id="tm42"/>
+			I'm sorry, I didn't hear you, did you say dices and hesitation?
+			<tm id="tm43"/>
+			Uh, no, license and registration
+			<tm id="tm44"/>
+			I'm sorry, let's try that again. Did you say 
+			<tm id="tm45"/>
+			rice gives indigestion?' 
+			<tm id="tm46"/>
+			And you just drive off really really fast.
+			<tm id="tm47"/>
+			The next time I need to find a number I'm gonna do it the old-fashioned way, 
+			<tm id="tm48"/>
+			I'm gonna make my wife call!
+		</speech>
+	</bml>
+	<fml>
+			
+	</fml>
+</fml-apml>
