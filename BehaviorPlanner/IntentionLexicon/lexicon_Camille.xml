@@ -1447,6 +1447,10 @@
 		</signals>
 		<constraints/>
 	</behaviorset>
+
+	<!--END OF  MSE -->
+
+	<!--NEWLY ADDED-->
 	<behaviorset name="emotion-regret_x">
 		<signals>
 			<signal id="1" name="faceexp=regret" modality="face"/>
@@ -1481,5 +1485,59 @@
 			</core>
 		</constraints>
 	</behaviorset>
-	<!--END OF  MSE -->
+
+	<behaviorset name="performative-refuse">
+		<signals>
+			<signal id="1" name="Shake_Big" modality="head">
+				<alternative name="ShakeLeftRight" probability="0.4"/>
+				<alternative name="ShakeRightLeft" probability="0.4"/>
+			</signal>
+			<signal id="2" name="performative=Refuse_Ges_B" modality="gesture">
+				<alternative name="performative=Refuse_Ges_L" probability="0.5"/>
+				<alternative name="performative=Refuse_Ges_R" probability="0.5"/>
+				<alternative name="performative=Deny_Ges_L" probability="0.2"/>
+			</signal>
+			<signal id="3" name="faceexp=Eyebrows_Frown" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+				<item id="2"/>
+			</core>
+		</constraints>
+	</behaviorset>
+
+	<behaviorset name="emotion-annoyed_strong">
+		<signals>
+			<signal id="1" name="faceexp=annoyed_strong" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+
+	<behaviorset name="emotion-upset_disbelief">
+		<signals>
+			<signal id="1" name="faceexp=upset_disbelief" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+
+	<behaviorset name="performative-Go_Ges_R">
+		<signals>
+			<signal id="1" name="performative=Go_Ges_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	<!--END OF NEWLY ADDED-->
 </behaviorsets>

@@ -107,6 +107,14 @@
 		</speech>
 	</bml>
 	<fml>
-			
+		<emotion id="e04" type="is_amazed" start="s1:tm04" end="s1:tm05" importance="1.0"/>
+		<performative id="p19" type="refuse" start="s1:tm19" end="s1:tm20" importance="1.0"/>
+		<emotion id="e21" type="annoyed_strong" start="s1:tm21" end="s1:tm22" importance="1.0"/>
+		<emotion id="e25" type="joy" start="s1:tm25" end="s1:tm26" importance="1.0"/>
+		<emotion id="e26" type="sadness" start="s1:tm26" end="s1:tm27" importance="1.0"/>
+		<emotion id="e31" type="hate" start="s1:tm31" end="s1:tm32" importance="1.0"/>
+		<emotion id="e35" type="upset_disbelief" start="s1:tm35" end="s1:tm36" importance="1.0"/>
+		<performative id="p38" type="suggest" start="s1:tm38" end="s1:tm39" importance="1.0"/>
+		<performative id="p46" type="Go_Ges_R" start="s1:tm46" end="s1:tm47" importance="1.0"/>
 	</fml>
 </fml-apml>
