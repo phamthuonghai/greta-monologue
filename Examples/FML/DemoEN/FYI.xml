@@ -25,9 +25,9 @@
 			<tm id="tm09"/>
 			 and now it's a friendlier one. 
 			<tm id="tm10"/>
-			That's how bad the economy is, even robots are getting replaced by other robots .. 
+			That's how bad the economy is, even robots are getting replaced by other robots
 			<tm id="tm11"/>
-			The new one is very pleasant, you know, you say the name and the number and … 
+			The new one is very pleasant, you know, you say the name and the number and,
 			<tm id="tm12"/>
 			alright, I'll connect you. 
 			<tm id="tm13"/>
@@ -102,6 +102,8 @@
 			The next time I need to find a number I'm gonna do it the old-fashioned way, 
 			<tm id="tm48"/>
 			I'm gonna make my wife call!
+			<tm id="tm49"/>
+			<boundary end="s1:tm49+0.5" id="b1" start="s1:tm49" type="LL" />
 		</speech>
 	</bml>
 	<fml>
