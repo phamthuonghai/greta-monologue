@@ -1576,7 +1576,7 @@
 	
 	<behaviorset name="iconic-Before">
 		<signals>
-			<signal id="1" name="iconic-background_R" modality="gesture"/>
+			<signal id="1" name="iconic=background_R" modality="gesture"/>
 		</signals>
 		<constraints>
 			<core>

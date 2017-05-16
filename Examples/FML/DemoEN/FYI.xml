@@ -21,9 +21,9 @@
 			<tm id="tm07"/>
 			It's a different robot than it used to be 
 			<tm id="tm08"/>
-			because it was a robot for a while
+			because it was a robot for a while and now
 			<tm id="tm09"/>
-			 and now it's a friendlier one. 
+			it's a friendlier one. 
 			<tm id="tm10a"/>
 			That's how bad the economy is, even robots
 			<tm id="tm10b"/>
@@ -43,7 +43,7 @@
 			<tm id="tm14b"/>
 			that she doesn't understand anything that I say. 
 			<tm id="tm15"/>
-			Cause at first they say 
+			Because at first they say 
 			<tm id="tm16"/>
 			'city and place, please'
 			<tm id="tm17"/>
@@ -115,26 +115,26 @@
 		</speech>
 	</bml>
 	<fml>
-		<performative id="e04" type="Neutral_storytelling" start="s1:tm01" end="s1:tm02" importance="1.0"/>
-		<performative id="e04" type="Neutral_storytelling" start="s1:tm02" end="s1:tm03" importance="1.0"/>
-		<performative id="e04" type="Jerky_up_R" start="s1:tm03" end="s1:tm04" importance="1.0"/>
+		<performative id="p01" type="Neutral_storytelling" start="s1:tm01" end="s1:tm02" importance="1.0"/>
+		<performative id="p02" type="Neutral_storytelling" start="s1:tm02" end="s1:tm03" importance="1.0"/>
+		<performative id="p03" type="Jerky_up_R" start="s1:tm03" end="s1:tm04" importance="1.0"/>
 		<emotion id="e04" type="is_amazed" start="s1:tm04" end="s1:tm05" importance="1.0"/>
-		<performative id="e04" type="Neutral_storytelling" start="s1:tm05" end="s1:tm06" importance="1.0"/>
-		<performative id="e04" type="Neutral_storytelling" start="s1:tm06" end="s1:tm07" importance="1.0"/>
-		<iconic id="e04" type="Before" start="s1:tm08" end="s1:tm09" importance="1.0"/>
-		<emotion id="e21" type="sarcasm" start="s1:tm10a" end="s1:tm10b" importance="1.0"/>
-		<performative id="e04" type="replacement" start="s1:tm10b" end="s1:tm11" importance="1.0"/>
-		<performative id="e04" type="Raise_hand_casual" start="s1:tm11b" end="s1:tm12" importance="1.0"/>
-		<performative id="e04" type="beatsocial" start="s1:tm13b" end="s1:tm14a" importance="1.0"/>
-		<performative id="p19" type="refuse" start="s1:tm14b" end="s1:tm15" importance="1.0"/>
-		<deictic id="e04" type="selftouch" start="s1:tm17" end="s1:tm18" importance="1.0"/>
+		<performative id="p05" type="Neutral_storytelling" start="s1:tm05" end="s1:tm06" importance="1.0"/>
+		<performative id="p06" type="Neutral_storytelling" start="s1:tm06" end="s1:tm07" importance="1.0"/>
+		<iconic id="i08" type="Before" start="s1:tm08" end="s1:tm09" importance="1.0"/>
+		<emotion id="e10a" type="sarcasm" start="s1:tm10a" end="s1:tm10b" importance="1.0"/>
+		<performative id="p10b" type="replacement" start="s1:tm10b" end="s1:tm11a" importance="1.0"/>
+		<performative id="p11b" type="Raise_hand_casual" start="s1:tm11b" end="s1:tm12" importance="1.0"/>
+		<performative id="p13b" type="beatsocial" start="s1:tm13b" end="s1:tm14a" importance="1.0"/>
+		<performative id="p14b" type="refuse" start="s1:tm14b" end="s1:tm15" importance="1.0"/>
+		<deictic id="d17" type="selftouch" start="s1:tm17" end="s1:tm18" importance="1.0"/>
 		<performative id="p19" type="refuse" start="s1:tm19" end="s1:tm20" importance="1.0"/>
 		<emotion id="e21" type="annoyed_strong" start="s1:tm21" end="s1:tm22" importance="1.0"/>
-		<emotion id="e21" type="annoyed_strong" start="s1:tm22" end="s1:tm23" importance="1.0"/>
-		<emotion id="e25" type="exasperation" start="s1:tm23" end="s1:tm24" importance="1.0"/>
+		<emotion id="e22" type="annoyed_strong" start="s1:tm22" end="s1:tm23" importance="1.0"/>
+		<emotion id="e23" type="exasperation" start="s1:tm23" end="s1:tm24" importance="1.0"/>
 		<emotion id="e25" type="joy" start="s1:tm25" end="s1:tm26" importance="1.0"/>
 		<emotion id="e26" type="sadness" start="s1:tm26" end="s1:tm27" importance="1.0"/>
-		<emotion id="e25" type="exasperation" start="s1:tm29" end="s1:tm30" importance="1.0"/>
+		<emotion id="e29" type="exasperation" start="s1:tm29" end="s1:tm30" importance="1.0"/>
 		<emotion id="e31" type="hate" start="s1:tm31" end="s1:tm32" importance="1.0"/>
 		<emotion id="e35" type="upset_disbelief" start="s1:tm35" end="s1:tm36" importance="1.0"/>
 		<performative id="p38" type="suggest" start="s1:tm38" end="s1:tm39" importance="1.0"/>
