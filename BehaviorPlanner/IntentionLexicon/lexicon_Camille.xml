@@ -179,10 +179,12 @@
 	<behaviorset name="emotion-hate">
 		<signals>
 			<signal id="1" name="faceexp=hate" modality="face"/>
+			<signal id="2" name="performative=Emphasising" modality="gesture"/>
 		</signals>
 		<constraints>
 			<core>
 				<item id="1"/>
+				<item id="2"/>
 			</core>
 		</constraints>
 	</behaviorset>
@@ -1502,10 +1504,12 @@
 	<behaviorset name="emotion-upset_disbelief">
 		<signals>
 			<signal id="1" name="faceexp=upset_disbelief" modality="face"/>
+			<signal id="2" name="performative=raise_hands_B" modality="gesture"/>
 		</signals>
 		<constraints>
 			<core>
 				<item id="1"/>
+				<item id="2"/>
 			</core>
 		</constraints>
 	</behaviorset>
@@ -1566,6 +1570,42 @@
 		<constraints>
 			<core>
 				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	
+	<behaviorset name="iconic-Before">
+		<signals>
+			<signal id="1" name="iconic-background_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	
+	<behaviorset name="performative-Raise_hand_casual">
+		<signals>
+			<signal id="1" name="performative=right_side" modality="gesture"/>
+				<alternative name="performative=left_side" probability="0.4"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	
+	<behaviorset name="emotion-exasperation">
+		<signals>
+			<signal id="1" name="faceexp=exasperation" modality="face"/>
+			<signal id="2" name="performative=raise_hands_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+				<item id="2"/>
 			</core>
 		</constraints>
 	</behaviorset>

@@ -302,6 +302,15 @@
         <action intensity="0.15" name="AU15"/>
         <action intensity="0.28" name="AU20"/>
     </expression>
+    <expression class="faceexp" instance="exasperation">
+        <action intensity="0.43" name="AU1"/>
+        <action intensity="0.26" name="AU2"/>
+        <action intensity="0.81" name="AU4"/>
+        <action intensity="0.06" name="AU5"/>
+        <action intensity="0.5" name="AU15"/>
+        <action intensity="0.11" name="AU27"/>
+        <action intensity="0.75" name="AU63"/>
+    </expression>
     <expression class="faceexp" instance="Eyebrows_Frown">
         <action intensity="0.8" name="AU4"/>
     </expression>
