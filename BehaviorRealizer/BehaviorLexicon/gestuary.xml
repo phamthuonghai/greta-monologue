@@ -84,6 +84,103 @@
             </hand>
         </phase>
     </gesture>
+    <gesture category="iconic" id="FromA_toB">
+        <phase>
+            <hand openness="1.8200000000000003" side="LEFT">
+                <uniformPosition>
+                    <horizontalLocation fixed="false"
+                        overridable="false" value="0.279"/>
+                    <verticalLocation fixed="false" overridable="false" value="-0.143"/>
+                    <frontalLocation fixed="false" overridable="false" value="0.646"/>
+                </uniformPosition>
+                <handShape overridable="false" value="RELAX"/>
+                <wristOrientation global="false" overridable="false"
+                    w="0.811839852752173" x="0.0" y="0.5838801704830624" z="0.0"/>
+            </hand>
+            <hand openness="1.3200000000000003" side="RIGHT">
+                <uniformPosition>
+                    <horizontalLocation fixed="false"
+                        overridable="false" value="0.322"/>
+                    <verticalLocation fixed="false" overridable="false" value="0.16"/>
+                    <frontalLocation fixed="false" overridable="false" value="0.48"/>
+                </uniformPosition>
+                <handShape overridable="false" value="EMPTY"/>
+                <wristOrientation global="false" overridable="false"
+                    w="0.9677892974297282" x="0.0" y="0.251761545476018" z="0.0"/>
+            </hand>
+        </phase>
+        <phase>
+            <hand openness="1.8200000000000003" side="LEFT">
+                <uniformPosition>
+                    <horizontalLocation fixed="false"
+                        overridable="false" value="0.279"/>
+                    <verticalLocation fixed="false" overridable="false" value="-0.143"/>
+                    <frontalLocation fixed="false" overridable="false" value="0.646"/>
+                </uniformPosition>
+                <handShape overridable="false" value="RELAX"/>
+                <wristOrientation global="false" overridable="false"
+                    w="0.811839852752173" x="0.0" y="0.5838801704830624" z="0.0"/>
+            </hand>
+            <hand openness="1.3200000000000003" side="RIGHT">
+                <uniformPosition>
+                    <horizontalLocation fixed="false"
+                        overridable="false" value="0.322"/>
+                    <verticalLocation fixed="false" overridable="false" value="0.16"/>
+                    <frontalLocation fixed="false" overridable="false" value="0.48"/>
+                </uniformPosition>
+                <handShape overridable="false" value="EMPTY"/>
+                <wristOrientation global="false" overridable="false"
+                    w="0.9677892974297282" x="0.0" y="0.251761545476018" z="0.0"/>
+            </hand>
+        </phase>
+        <phase>
+            <hand openness="1.8200000000000003" side="LEFT">
+                <uniformPosition>
+                    <horizontalLocation fixed="false"
+                        overridable="false" value="0.279"/>
+                    <verticalLocation fixed="false" overridable="false" value="-0.143"/>
+                    <frontalLocation fixed="false" overridable="false" value="0.646"/>
+                </uniformPosition>
+                <handShape overridable="false" value="RELAX"/>
+                <wristOrientation global="false" overridable="false"
+                    w="0.811839852752173" x="0.0" y="0.5838801704830624" z="0.0"/>
+            </hand>
+            <hand openness="1.3200000000000003" side="RIGHT">
+                <uniformPosition>
+                    <horizontalLocation fixed="false"
+                        overridable="false" value="0.787"/>
+                    <verticalLocation fixed="false" overridable="false" value="0.16"/>
+                    <frontalLocation fixed="false" overridable="false" value="0.48"/>
+                </uniformPosition>
+                <handShape overridable="false" value="EMPTY"/>
+            </hand>
+        </phase>
+        <phase>
+            <hand openness="1.8200000000000003" side="LEFT">
+                <uniformPosition>
+                    <horizontalLocation fixed="false"
+                        overridable="false" value="0.279"/>
+                    <verticalLocation fixed="false" overridable="false" value="-0.173"/>
+                    <frontalLocation fixed="false" overridable="false" value="0.646"/>
+                </uniformPosition>
+                <handShape overridable="false" value="RELAX"/>
+                <wristOrientation global="false" overridable="false"
+                    w="0.811839852752173" x="0.0" y="0.5838801704830624" z="0.0"/>
+            </hand>
+            <hand openness="1.3200000000000003" side="RIGHT">
+                <uniformPosition>
+                    <horizontalLocation fixed="false"
+                        overridable="false" value="0.787"/>
+                    <verticalLocation fixed="false" overridable="false" value="-0.041"/>
+                    <frontalLocation fixed="false" overridable="false" value="0.48"/>
+                </uniformPosition>
+                <handShape overridable="false" value="EMPTY"/>
+                <wristOrientation global="false" overridable="false"
+                    w="0.9916910320548965" x="0.0"
+                    y="-0.12864251607417448" z="0.0"/>
+            </hand>
+        </phase>
+    </gesture>
     <gesture category="iconic" id="test_malta">
         <phase>
             <hand openness="-1.15" side="RIGHT">
@@ -582,8 +679,8 @@
                 </uniformPosition>
                 <handShape overridable="false" value="EMPTY"/>
                 <wristOrientation global="false" overridable="false"
-                    w="0.5812763090180503" x="0.0"
-                    y="0.8137062446450514" z="0.0"/>
+                    w="0.5812762975692749" x="0.0"
+                    y="0.8137062191963196" z="0.0"/>
             </hand>
             <hand openness="0.6599999999999993" side="RIGHT">
                 <uniformPosition>
@@ -594,7 +691,8 @@
                 </uniformPosition>
                 <handShape overridable="false" value="EMPTY"/>
                 <wristOrientation global="false" overridable="false"
-                    w="0.82250209763238" x="0.0" y="-0.5687620762589001" z="0.0"/>
+                    w="0.822502076625824" x="0.0"
+                    y="-0.5687620639801025" z="0.0"/>
             </hand>
         </phase>
         <phase>
@@ -607,8 +705,8 @@
                 </uniformPosition>
                 <handShape overridable="false" value="EMPTY"/>
                 <wristOrientation global="false" overridable="false"
-                    w="0.5814420367493393" x="-4.7281879915358495E-5"
-                    y="0.813587827729513" z="-4.728187991535848E-5"/>
+                    w="0.5814420580863953" x="-4.728187923319638E-5"
+                    y="0.8135878443717957" z="-4.728187923319638E-5"/>
             </hand>
             <hand openness="0.6599999999999993" side="RIGHT">
                 <uniformPosition>
@@ -619,7 +717,8 @@
                 </uniformPosition>
                 <handShape overridable="false" value="EMPTY"/>
                 <wristOrientation global="false" overridable="false"
-                    w="0.82250209763238" x="0.0" y="-0.5687620762589001" z="0.0"/>
+                    w="0.822502076625824" x="0.0"
+                    y="-0.5687620639801025" z="0.0"/>
             </hand>
         </phase>
         <phase>
@@ -632,8 +731,8 @@
                 </uniformPosition>
                 <handShape overridable="false" value="EMPTY"/>
                 <wristOrientation global="false" overridable="false"
-                    w="0.5814420367493393" x="-4.7281879915358495E-5"
-                    y="0.813587827729513" z="-4.728187991535848E-5"/>
+                    w="0.5814420580863953" x="-4.728187923319638E-5"
+                    y="0.8135878443717957" z="-4.728187923319638E-5"/>
             </hand>
             <hand openness="0.6599999999999993" side="RIGHT">
                 <uniformPosition>
@@ -644,7 +743,8 @@
                 </uniformPosition>
                 <handShape overridable="false" value="EMPTY"/>
                 <wristOrientation global="false" overridable="false"
-                    w="0.82250209763238" x="0.0" y="-0.5687620762589001" z="0.0"/>
+                    w="0.822502076625824" x="0.0"
+                    y="-0.5687620639801025" z="0.0"/>
             </hand>
         </phase>
     </gesture>

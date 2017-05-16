@@ -66,8 +66,10 @@
 			'Grandma I got married!',
 			<tm id="tm26"/>
 			'Did you say I'm getting buried?!'
-			<tm id="tm27"/>
-			It's so frustrating trying to talk to a robot cause no matter how mad you get, the lady, Noreen, is so calm.
+			<tm id="tm27a"/>
+			It's so frustrating trying to talk to a robot cause no matter how mad you get,
+			<tm id="tm27b"/>
+			the lady, Noreen, is so calm.
 			<tm id="tm28"/>
 			I'm having a hard time understanding you, let's try again. 
 			<tm id="tm29"/>
@@ -76,14 +78,16 @@
 			And you're finally just like 
 			<tm id="tm31"/>
 			'I hate you!'
-			<tm id="tm32"/>
-			 and that's when they've connected you to a real-life person, who knows that you want Leslie's pools, she's in the background listening!
+			<tm id="tm32a"/>
+			 and that's when they've connected you to a real-life person, who knows that you want Leslie's pools,
+			<tm id="tm32b"/>
+			 she's in the background listening!
 			<tm id="tm33"/>
 			And you just think
 			<tm id="tm34"/>
-			'Are you… listening the whole time?
+			'Are you just listening the whole time? Just back there?
 			<tm id="tm35"/>
-			Are you just back there? What are you doing?'
+			 What are you doing?'
 			<tm id="tm36"/>
 			It's nice when you're a robot, you can't really get mad at the robot or do anything cause it's a robot,
 			<tm id="tm37"/>
@@ -107,11 +111,7 @@
 			<tm id="tm46"/>
 			And you just drive off really really fast.
 			<tm id="tm47"/>
-			The next time I need to find a number I'm gonna do it the old-fashioned way, 
-			<tm id="tm48"/>
-			I'm gonna make my wife call!
-			<tm id="tm49"/>
-			<boundary end="s1:tm49+0.5" id="b1" start="s1:tm49" type="LL" />
+			<boundary end="s1:tm47+0.5" id="b1" start="s1:tm49" type="LL" />
 		</speech>
 	</bml>
 	<fml>
@@ -133,10 +133,16 @@
 		<emotion id="e22" type="annoyed_strong" start="s1:tm22" end="s1:tm23" importance="1.0"/>
 		<emotion id="e23" type="exasperation" start="s1:tm23" end="s1:tm24" importance="1.0"/>
 		<emotion id="e25" type="joy" start="s1:tm25" end="s1:tm26" importance="1.0"/>
-		<emotion id="e26" type="sadness" start="s1:tm26" end="s1:tm27" importance="1.0"/>
+		<emotion id="e26" type="sadness" start="s1:tm26" end="s1:tm27a" importance="1.0"/>
+		<performative id="p27a" type="Complain_storytelling" start="s1:tm27a" end="s1:tm27b" importance="1.0"/>
+		<performative id="p27b" type="Raise_hand_casual" start="s1:tm27b" end="s1:tm28" importance="1.0"/>
 		<emotion id="e29" type="exasperation" start="s1:tm29" end="s1:tm30" importance="1.0"/>
-		<emotion id="e31" type="hate" start="s1:tm31" end="s1:tm32" importance="1.0"/>
-		<emotion id="e35" type="upset_disbelief" start="s1:tm35" end="s1:tm36" importance="1.0"/>
+		<emotion id="e31" type="hate" start="s1:tm31" end="s1:tm32a" importance="1.0"/>
+		<iconic id="i32a" type="AtoB" start="s1:tm32a" end="s1:tm32b" importance="1.0"/>
+		<iconic id="i32b" type="Before" start="s1:tm32b" end="s1:tm33" importance="1.0"/>
+		<emotion id="e34" type="upset_disbelief" start="s1:tm34" end="s1:tm35" importance="1.0"/>
+		<emotion id="e35" type="upset_anger" start="s1:tm35" end="s1:tm36" importance="1.0"/>
+		<performative id="p36" type="Neutral_storytelling" start="s1:tm36" end="s1:tm37" importance="1.0"/>
 		<performative id="p38" type="suggest" start="s1:tm38" end="s1:tm39" importance="1.0"/>
 		<performative id="p46" type="Go_Ges_R" start="s1:tm46" end="s1:tm47" importance="1.0"/>
 	</fml>

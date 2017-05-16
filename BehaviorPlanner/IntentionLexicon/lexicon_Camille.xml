@@ -1513,28 +1513,41 @@
 			</core>
 		</constraints>
 	</behaviorset>
-
-	<behaviorset name="performative-Go_Ges_R">
+	
+	<behaviorset name="emotion-upset_anger">
 		<signals>
-			<signal id="1" name="performative=Go_Ges_R" modality="gesture"/>
+			<signal id="1" name="faceexp=upset" modality="face"/>
+			<signal id="2" name="performative=raise_hands_B" modality="gesture"/>
 		</signals>
 		<constraints>
 			<core>
 				<item id="1"/>
+				<item id="2"/>
+			</core>
+		</constraints>
+	</behaviorset>
+
+	<behaviorset name="performative-Go_Ges_R">
+		<signals>
+			<signal id="1" name="performative=Go_Ges_R" modality="gesture"/>
+			<signal id="2" name="faceexp=joy" modality="face"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+				<item id="2"/>
 			</core>
 		</constraints>
 	</behaviorset>
 	
 	<behaviorset name="performative-Neutral_storytelling">
 		<signals>
-			<signal id="1" name="faceexp=agree" modality="face"/>
-			<signal id="2" name="performative=explain_relaxed" modality="gesture"/>
+			<signal id="1" name="performative=explain_relaxed" modality="gesture"/>
 				<alternative name="performative=spread_out_casual_B" probability="0.4"/>
 		</signals>
 		<constraints>
 			<core>
 				<item id="1"/>
-				<item id="2"/>
 			</core>
 		</constraints>
 	</behaviorset>
@@ -1601,6 +1614,30 @@
 		<signals>
 			<signal id="1" name="faceexp=exasperation" modality="face"/>
 			<signal id="2" name="performative=raise_hands_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+				<item id="2"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	
+	<behaviorset name="iconic-AtoB">
+		<signals>
+			<signal id="1" name="iconic=FromA_toB" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	
+	<behaviorset name="performative-Complain_storytelling">
+		<signals>
+			<signal id="1" name="faceexp=small_sadness" modality="face"/>
+			<signal id="2" name="performative=spread_out_casual_B" modality="gesture"/>
 		</signals>
 		<constraints>
 			<core>
