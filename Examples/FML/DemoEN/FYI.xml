@@ -24,10 +24,12 @@
 			because it was a robot for a while
 			<tm id="tm09"/>
 			 and now it's a friendlier one. 
-			<tm id="tm10"/>
-			That's how bad the economy is, even robots are getting replaced by other robots
+			<tm id="tm10a"/>
+			That's how bad the economy is, even robots
+			<tm id="tm10b"/>
+			are getting replaced by other robots
 			<tm id="tm11"/>
-			The new one is very pleasant, you know, you say the name and the number and,
+			The new one is very pleasant, you know, you say the name and the number and she goes,
 			<tm id="tm12"/>
 			alright, I'll connect you. 
 			<tm id="tm13"/>
@@ -39,7 +41,7 @@
 			<tm id="tm16"/>
 			'city and place, please'
 			<tm id="tm17"/>
-			so, you know, I say Los Angeles, California.
+			so, you know, I say Los Angeles, California. She goes
 			<tm id="tm18"/>
 			Did you say Los Vilas, California?
 			<tm id="tm19"/>
@@ -107,7 +109,14 @@
 		</speech>
 	</bml>
 	<fml>
+		<performative id="e04" type="Neutral_storytelling" start="s1:tm01" end="s1:tm02" importance="1.0"/>
+		<performative id="e04" type="Neutral_storytelling" start="s1:tm02" end="s1:tm03" importance="1.0"/>
+		<performative id="e04" type="Jerky_up_R" start="s1:tm03" end="s1:tm04" importance="1.0"/>
 		<emotion id="e04" type="is_amazed" start="s1:tm04" end="s1:tm05" importance="1.0"/>
+		<performative id="e04" type="Neutral_storytelling" start="s1:tm05" end="s1:tm06" importance="1.0"/>
+		<performative id="e04" type="Neutral_storytelling" start="s1:tm06" end="s1:tm07" importance="1.0"/>
+		<emotion id="e21" type="sarcasm" start="s1:tm10a" end="s1:tm10b" importance="1.0"/>
+		<performative id="e04" type="replacement" start="s1:tm10b" end="s1:tm11" importance="1.0"/>
 		<performative id="p19" type="refuse" start="s1:tm19" end="s1:tm20" importance="1.0"/>
 		<emotion id="e21" type="annoyed_strong" start="s1:tm21" end="s1:tm22" importance="1.0"/>
 		<emotion id="e25" type="joy" start="s1:tm25" end="s1:tm26" importance="1.0"/>

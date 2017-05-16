@@ -1451,29 +1451,8 @@
 	<!--END OF  MSE -->
 
 	<!--NEWLY ADDED-->
-	<behaviorset name="emotion-regret_x">
-		<signals>
-			<signal id="1" name="faceexp=regret" modality="face"/>
-			<signal id="2" name="iconic=test_malta" modality="gesture"/>
-		</signals>
-		<constraints>
-			<core>
-				<item id="1"/>
-				<item id="2"/>
-			</core>
-		</constraints>
-	</behaviorset>
+
 	<behaviorset name="emotion-is_amazed">
-		<signals>
-			<signal id="1" name="faceexp=wow" modality="face"/>
-		</signals>
-		<constraints>
-			<core>
-				<item id="1"/>
-			</core>
-		</constraints>
-	</behaviorset>
-	<behaviorset name="emotion-amazed_speech">
 		<signals>
 			<signal id="1" name="faceexp=wow" modality="face"/>
 			<signal id="2" name="iconic=amazed" modality="gesture"/>
@@ -1510,10 +1489,12 @@
 	<behaviorset name="emotion-annoyed_strong">
 		<signals>
 			<signal id="1" name="faceexp=annoyed_strong" modality="face"/>
+			<signal id="2" name="performative=Emphasising" modality="gesture"/>
 		</signals>
 		<constraints>
 			<core>
 				<item id="1"/>
+				<item id="2"/>
 			</core>
 		</constraints>
 	</behaviorset>
@@ -1539,5 +1520,55 @@
 			</core>
 		</constraints>
 	</behaviorset>
+	
+	<behaviorset name="performative-Neutral_storytelling">
+		<signals>
+			<signal id="1" name="faceexp=agree" modality="face"/>
+			<signal id="2" name="performative=explain_relaxed" modality="gesture"/>
+				<alternative name="performative=spread_out_casual_B" probability="0.4"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+				<item id="2"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	
+	<behaviorset name="emotion-sarcasm">
+		<signals>
+			<signal id="1" name="faceexp=sarcastic_smile" modality="face"/>
+			<signal id="2" name="performative=Show_palm_L" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+				<item id="2"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	
+	<behaviorset name="performative-replacement">
+		<signals>
+			<signal id="1" name="iconic=this_and_that" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	
+	<behaviorset name="performative-Jerky_up_R">
+		<signals>
+			<signal id="1" name="performative=jerky_up_R" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	
 	<!--END OF NEWLY ADDED-->
 </behaviorsets>
