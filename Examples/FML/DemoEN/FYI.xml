@@ -32,10 +32,14 @@
 			The new one is very pleasant, you know, you say the name and the number and she goes,
 			<tm id="tm12"/>
 			alright, I'll connect you. 
-			<tm id="tm13"/>
-			It's very very happy, and I've named her Noreen. 
-			<tm id="tm14"/>
-			The problem with Noreen is that she doesn't understand anything that I say. 
+			<tm id="tm13a"/>
+			It's very very happy, 
+			<tm id="tm13b"/>
+			and I've named her Noreen. 
+			<tm id="tm14a"/>
+			The problem with Noreen is
+			<tm id="tm14b"/>
+			that she doesn't understand anything that I say. 
 			<tm id="tm15"/>
 			Cause at first they say 
 			<tm id="tm16"/>
@@ -117,6 +121,9 @@
 		<performative id="e04" type="Neutral_storytelling" start="s1:tm06" end="s1:tm07" importance="1.0"/>
 		<emotion id="e21" type="sarcasm" start="s1:tm10a" end="s1:tm10b" importance="1.0"/>
 		<performative id="e04" type="replacement" start="s1:tm10b" end="s1:tm11" importance="1.0"/>
+		<performative id="e04" type="beatsocial" start="s1:tm13b" end="s1:tm14a" importance="1.0"/>
+		<performative id="p19" type="refuse" start="s1:tm14b" end="s1:tm15" importance="1.0"/>
+		<deictic id="e04" type="selftouch" start="s1:tm17" end="s1:tm18" importance="1.0"/>
 		<performative id="p19" type="refuse" start="s1:tm19" end="s1:tm20" importance="1.0"/>
 		<emotion id="e21" type="annoyed_strong" start="s1:tm21" end="s1:tm22" importance="1.0"/>
 		<emotion id="e25" type="joy" start="s1:tm25" end="s1:tm26" importance="1.0"/>
