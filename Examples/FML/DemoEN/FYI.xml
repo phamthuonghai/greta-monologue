@@ -11,7 +11,7 @@
 			<tm id="tm02"/>
 			'so I called the information to get the number of'
 			<tm id="tm03"/>
-			a pool fixer
+			a pool fixer.
 			<tm id="tm04"/>
 			and wow!
 			<tm id="tm05"/>
@@ -27,7 +27,7 @@
 			<tm id="tm10a"/>
 			That's how bad the economy is, even robots
 			<tm id="tm10b"/>
-			are getting replaced by other robots
+			are getting replaced by other robots.
 			<tm id="tm11a"/>
 			The new one is very pleasant, you know,
 			<tm id="tm11b"/>
@@ -95,7 +95,7 @@
 			<tm id="tm38"/>
 			let me recommend something to you.
 			<tm id="tm39"/>
-			next time you get pulled over by a cop and the cop says
+			next time you get pulled over by a cop and the cop says.
 			<tm id="tm40"/>
 			License and registration
 			<tm id="tm41"/>
@@ -125,7 +125,7 @@
 		<emotion id="e10a" type="sarcasm" start="s1:tm10a" end="s1:tm10b" importance="1.0"/>
 		<performative id="p10b" type="replacement" start="s1:tm10b" end="s1:tm11a" importance="1.0"/>
 		<performative id="p11b" type="Raise_hand_casual" start="s1:tm11b" end="s1:tm12" importance="1.0"/>
-		<performative id="p13b" type="beatsocial" start="s1:tm13b" end="s1:tm14a" importance="1.0"/>
+		<performative id="p13a" type="beatsocial" start="s1:tm13a" end="s1:tm14a" importance="1.0"/>
 		<performative id="p14b" type="refuse" start="s1:tm14b" end="s1:tm15" importance="1.0"/>
 		<deictic id="d17" type="selftouch" start="s1:tm17" end="s1:tm18" importance="1.0"/>
 		<performative id="p19" type="refuse" start="s1:tm19" end="s1:tm20" importance="1.0"/>
