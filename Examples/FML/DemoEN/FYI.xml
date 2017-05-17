@@ -45,15 +45,15 @@
 			<tm id="tm15"/>
 			Because at first they say 
 			<tm id="tm16"/>
-			'city and place, please'
+			<voice emotion="calm">'city and place, please'</voice>
 			<tm id="tm17"/>
 			so, well, I say Los Angeles, California. She goes
 			<tm id="tm18"/>
-			Did you say Los Vilas, California?
+			<voice emotion="calm">Did you say Los Vilas, California?</voice>
 			<tm id="tm19"/>
 			No I didn't say Los Vilas.
 			<tm id="tm20"/>
-			Alright, Los Vilas, what listing please?
+			<voice emotion="calm">Alright, Los Vilas, what listing please?</voice>
 			<tm id="tm21"/>
 			No, Los Angeles, California!
 			<tm id="tm22"/>
@@ -63,9 +63,9 @@
 			<tm id="tm24"/>
 			it's like talking to your Grandma, it's like 
 			<tm id="tm25"/>
-			'Grandma I got married!',
+			<voice emotion='happy'>'Grandma I got married!',</voice>
 			<tm id="tm26"/>
-			'Did you say I'm getting buried?!'
+			'Did you say I'm <voice emotion='sad'>getting buried?!'</voice>
 			<tm id="tm27a"/>
 			It's so frustrating trying to talk to a robot cause no matter how mad you get,
 			<tm id="tm27b"/>
@@ -114,6 +114,7 @@
 
 
 
+			<boundary end="s1:tm18+0.5" id="b18" start="s1:tm18" type="LL" />
 			<boundary end="s1:tm27b+0.5" id="b27b" start="s1:tm27b" type="LL" />
 			<boundary end="s1:tm35+0.5" id="b35" start="s1:tm35" type="LL" />
 			<boundary end="s1:tm47+0.5" id="b47" start="s1:tm47" type="LL" />
