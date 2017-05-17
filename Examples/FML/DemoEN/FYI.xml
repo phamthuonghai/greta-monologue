@@ -111,7 +111,12 @@
 			<tm id="tm46"/>
 			And you just drive off really really fast.
 			<tm id="tm47"/>
-			<boundary end="s1:tm47+0.5" id="b1" start="s1:tm49" type="LL" />
+
+
+
+			<boundary end="s1:tm27b+0.5" id="b27b" start="s1:tm27b" type="LL" />
+			<boundary end="s1:tm35+0.5" id="b35" start="s1:tm35" type="LL" />
+			<boundary end="s1:tm47+0.5" id="b47" start="s1:tm47" type="LL" />
 		</speech>
 	</bml>
 	<fml>
