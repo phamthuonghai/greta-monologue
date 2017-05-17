@@ -47,7 +47,7 @@
 			<tm id="tm16"/>
 			'city and place, please'
 			<tm id="tm17"/>
-			so, you know, I say Los Angeles, California. She goes
+			so, well, I say Los Angeles, California. She goes
 			<tm id="tm18"/>
 			Did you say Los Vilas, California?
 			<tm id="tm19"/>
@@ -59,7 +59,7 @@
 			<tm id="tm22"/>
 			Leslie's pools.
 			<tm id="tm23"/>
-			I start screaming, you know,
+			I start screaming, you see,
 			<tm id="tm24"/>
 			it's like talking to your Grandma, it's like 
 			<tm id="tm25"/>
@@ -95,7 +95,7 @@
 			<tm id="tm38"/>
 			let me recommend something to you.
 			<tm id="tm39"/>
-			next time you get pulled over by a cop and the cop says 
+			next time you get pulled over by a cop and the cop says
 			<tm id="tm40"/>
 			License and registration
 			<tm id="tm41"/>
@@ -143,9 +143,9 @@
 		<emotion id="e34" type="upset_disbelief" start="s1:tm34" end="s1:tm35" importance="1.0"/>
 		<emotion id="e35" type="upset_anger" start="s1:tm35" end="s1:tm36" importance="1.0"/>
 		<performative id="p36" type="Neutral_storytelling" start="s1:tm36" end="s1:tm37" importance="1.0"/>
-		<performative id="p38" type="suggest" start="s1:tm38" end="s1:tm39" importance="1.0"/>
+		<performative id="p37" type="suggest" start="s1:tm37" end="s1:tm39" importance="1.0"/>
 		<performative id="p39" type="Jerky_up_R" start="s1:tm39" end="s1:tm40" importance="1.0"/>
-		<iconic id="i40" type="Demand_something" start="s1:tm40" end="s1:tm41" importance="1.0"/>
+		<iconic id="i40" type="Demand" start="s1:tm40" end="s1:tm41" importance="1.0"/>
 		<performative id="p43" type="disagree" start="s1:tm43" end="s1:tm44" importance="1.0"/>
 		<performative id="p46" type="Go_Ges_Mischievous" start="s1:tm46" end="s1:tm47" importance="1.0"/>
 	</fml>
