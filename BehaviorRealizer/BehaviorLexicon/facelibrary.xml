@@ -422,6 +422,13 @@
     <expression class="faceexp" instance="lower_right_mouth_corner">
         <action name="AU15" side="RIGHT"/>
     </expression>
+    <expression class="faceexp" instance="mischievous_grin">
+        <action name="AU2"/>
+        <action intensity="0.55" name="AU5"/>
+        <action intensity="0.61" name="AU12" side="LEFT"/>
+        <action intensity="0.89" name="AU12" side="RIGHT"/>
+        <action intensity="0.37" name="AU25"/>
+    </expression>
     <expression class="faceexp" instance="neutral"/>
     <expression class="faceexp" instance="oblique_brows">
         <action name="AU1"/>

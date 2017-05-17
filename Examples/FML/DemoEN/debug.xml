@@ -22,6 +22,6 @@
 		</speech>
 	</bml>
 	<fml>
-		<emotion id="p13b" type="upset_anger" start="s1:tm2" end="s1:tm4" importance="1.0"/>
+		<iconic id="p13b" type="Demand" start="s1:tm2" end="s1:tm3" importance="1.0"/>
 	</fml>
 </fml-apml>

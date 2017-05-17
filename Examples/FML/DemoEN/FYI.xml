@@ -91,11 +91,11 @@
 			<tm id="tm36"/>
 			It's nice when you're a robot, you can't really get mad at the robot or do anything cause it's a robot,
 			<tm id="tm37"/>
-			so the next time
+			so
 			<tm id="tm38"/>
-			this is what I recommend
+			let me recommend something to you.
 			<tm id="tm39"/>
-			next time you get pulled over and the cop says 
+			next time you get pulled over by a cop and the cop says 
 			<tm id="tm40"/>
 			License and registration
 			<tm id="tm41"/>
@@ -103,7 +103,7 @@
 			<tm id="tm42"/>
 			I'm sorry, I didn't hear you, did you say dices and hesitation?
 			<tm id="tm43"/>
-			Uh, no, license and registration
+			no, license and registration
 			<tm id="tm44"/>
 			I'm sorry, let's try that again. Did you say 
 			<tm id="tm45"/>
@@ -144,6 +144,9 @@
 		<emotion id="e35" type="upset_anger" start="s1:tm35" end="s1:tm36" importance="1.0"/>
 		<performative id="p36" type="Neutral_storytelling" start="s1:tm36" end="s1:tm37" importance="1.0"/>
 		<performative id="p38" type="suggest" start="s1:tm38" end="s1:tm39" importance="1.0"/>
-		<performative id="p46" type="Go_Ges_R" start="s1:tm46" end="s1:tm47" importance="1.0"/>
+		<performative id="p39" type="Jerky_up_R" start="s1:tm39" end="s1:tm40" importance="1.0"/>
+		<iconic id="i40" type="Demand_something" start="s1:tm40" end="s1:tm41" importance="1.0"/>
+		<performative id="p43" type="disagree" start="s1:tm43" end="s1:tm44" importance="1.0"/>
+		<performative id="p46" type="Go_Ges_Mischievous" start="s1:tm46" end="s1:tm47" importance="1.0"/>
 	</fml>
 </fml-apml>

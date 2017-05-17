@@ -497,9 +497,10 @@
 		</constraints>
 	</behaviorset>
 	
-	 <behaviorset name="performative-disagree">
+	<behaviorset name="performative-disagree">
     <signals>
       <signal id="1" name="faceexp=disagree" modality="face"/>
+	  <signal id="2" name="performative=Disagree_Ges_L" modality="gesture"/>
     </signals>
     <constraints>
       <core>
@@ -1638,6 +1639,30 @@
 		<signals>
 			<signal id="1" name="faceexp=small_sadness" modality="face"/>
 			<signal id="2" name="performative=spread_out_casual_B" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+				<item id="2"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	
+	<behaviorset name="iconic-Demand">
+		<signals>
+			<signal id="1" name="iconic=Demand_something" modality="gesture"/>
+		</signals>
+		<constraints>
+			<core>
+				<item id="1"/>
+			</core>
+		</constraints>
+	</behaviorset>
+	
+	<behaviorset name="performative-Go_Ges_Mischievous">
+		<signals>
+			<signal id="1" name="performative=Go_Ges_R" modality="gesture"/>
+			<signal id="2" name="faceexp=mischievous_grin" modality="face"/>
 		</signals>
 		<constraints>
 			<core>
